@@ -11,7 +11,7 @@ steps:
     displayName: 'Deploy Infrastructure'
 
   - script: |
-      ansible-playbook -i 52.190.63.148, playbook.yml -u azureuser --extra-vars "ansible_ssh_pass=Password1234!"52.190.63.148i
+      ansible-playbook -i 52.190.63.148, playbook.yml -u azureuser --extra-vars "ansible_ssh_pass=Password1234!"
     displayName: 'Configure Server'
 
   - script: |
